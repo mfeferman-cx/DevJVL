@@ -23,7 +23,6 @@ jobs:
         run: |
           sudo apt install openjdk-8-jdk maven
           mvn dependency:tree
-          mvn install -DskipTests
           
       - name: Checkmarx AST GitHub Action
         uses: Checkmarx/ast-github-action@2.0.1
