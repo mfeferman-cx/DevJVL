@@ -16,7 +16,7 @@ jobs:
           wget -q https://sca-downloads.s3.amazonaws.com/cli/latest/ScaResolver-linux64.tar.gz
           tar -xzvf ScaResolver-linux64.tar.gz
           rm -rf ScaResolver-linux64.tar.gz
-          chmod +x ScaResolver
+          sudo chmod +x ScaResolver
           
           
       - name: Install Maven, NPM, ... # Add any necessary package management
