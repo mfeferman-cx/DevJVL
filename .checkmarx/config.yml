@@ -12,5 +12,5 @@ checkmarx:
 
     configs:
       sast:
-        presetName: 'High and Medium and Low'
+        presetName: 'High and Medium'
         incremental: 'false'
